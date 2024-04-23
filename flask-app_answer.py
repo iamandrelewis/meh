@@ -11,7 +11,7 @@ def answer_call():
     resp = VoiceResponse()
 
     # Read a message aloud to the caller
-    resp.say("""Good day, my name is Amanda Brakston from the unclaims department. 
+    resp.say("""Good day, my name is from the unclaims department. 
         This is about your cheque for 18.5 millions dollars. If you were not contacted by one of agents about this, you can give me a call back at 2513599280. 
         Have a great day and god bless.""", voice='Polly.Amy')
 
